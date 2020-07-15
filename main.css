@@ -1,0 +1,107 @@
+@charset "UTF-8";
+a:link{
+	margin-right: 10px;
+	text-decoration: none;
+	color: #575963;
+}
+a:hover{
+	text-decoration-color : #575963 ;
+	text-decoration-line: underline;
+	
+}
+/*header*/
+.header{
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	text-decoration-line: none;
+}
+ .header .container{
+    margin-left: 1000px;
+}
+.icon{
+	height: 20px;
+	width: 25px;
+	margin-right: 10px;
+}
+/*header*/
+
+/*banner*/
+.banner{
+	text-align: center;
+}
+.logo .google{
+	width: 270px;
+	margin-top: 90px;
+
+}
+.search .bar,
+.micro{
+	height: 20px;
+	width: 30px;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.search .text{
+	position: relative;
+	border-radius: 25px;
+	width: 500px;
+	height: 50px;
+	border-color: rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0);
+}
+.text:hover{
+	border-color:  #A5ABAF;
+	border-width: 1px;  
+}
+
+.btn .btn-default{
+	border: none;
+	color:  #B2B4BD;
+	
+}
+.btn-default{
+	margin-top: 25px; 
+	color:  #B2B4BD;
+	height: 35px;
+}
+
+.btn-default:hover{
+	border-radius: 5px;
+	border-color: #A5ABAF;
+}
+.traduction{
+	color:  #000000;
+	margin-top: 20px;
+	height: 20px;
+}
+.traduction .trad{
+	color: #1430AC;
+}
+.trad:hover{
+	color: #A5ABAF;
+	text-decoration-line: underline;
+}
+/*banner*/
+
+/*footer*/
+.footer{
+	margin-top: 150px;
+}
+ .pieds{
+	background-color: #C6C9D4;
+	border-color: #000000;
+}
+.location{
+	color: #3F4045;
+	margin-top: 5px;
+}
+.about{
+	float: left;
+	text-decoration: none;
+}
+.setting{
+	float: right;
+	}
+/*footer*/
